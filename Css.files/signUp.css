@@ -39,11 +39,40 @@ label{
     font-weight: 700;
 }
 button{
-    height: 20%;
+    height: 30%;
     width: 50%;
     font-size:15px;
     font-weight: 700;
     background-color: black;
     color: white;
     border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: wheat;
+    color: black;
+}
+#model{
+    display: none;
+    width: 220px;
+    height: 220px;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Times New Roman', Times, serif;
+   border-radius: 10px;
+   background-color: antiquewhite;
+   gap: 10px;
+}
+#model button{
+    height: 15%;
+    background-color: blue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#model button:hover{
+    color: blue;
+    background-color: white;
 }

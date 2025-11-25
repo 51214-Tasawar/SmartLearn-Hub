@@ -3,23 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet"  href="../Css.js/signUp.css">
+    <title>SignUp</title>
+    <link rel="stylesheet"  href="../Css.files/signUp.css">
   </head>
   <body>
     <div>
-      <form>
+      <div id="model">
+      <h3>You SignUp Successfully ! </h3>
+      <button onclick="gologin()">Ok</button>
+    </div>
+      <form id="SignUpForm"  onsubmit="singUp(event)">
         <h1> SignUp </h1>
         <div class="Innerdiv">
           <label>UserName</label>
-          <input type="text" name="username" placeholder="Enter UserName" />
+          <input id="username" type="text" name="username"  placeholder="Enter UserName" />
         </div>
         <div class="Innerdiv">
           <label>Password</label>
-          <input type="text" name="username" placeholder="Enter UserName" />
+          <input id="userpassword" type="password" name="username"  placeholder="Enter UserName" />
         </div>
         <button>SignUp</button>
       </form>
     </div>
+    <script src="../Js Files/Auth.js"></script>
   </body>
 </html>

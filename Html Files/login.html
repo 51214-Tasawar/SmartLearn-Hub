@@ -4,22 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet"  href="../Css.js/login.css">
+    <link rel="stylesheet"  href="../Css.files/login.css">
   </head>
   <body>
     <div>
-      <form>
+      <form onsubmit="login(event)">
         <h1>Login </h1>
         <div class="Innerdiv">
           <label>UserName</label>
-          <input type="text" name="username" placeholder="Enter UserName" />
+          <input id="loginuser" type="text" name="username"  placeholder="Enter UserName" />
         </div>
         <div class="Innerdiv">
           <label>Password</label>
-          <input type="text" name="username" placeholder="Enter UserName" />
+          <input id="loginpass" type="password" name="username"  placeholder="Enter UserName" />
         </div>
         <button>Login</button>
       </form>
     </div>
+    <script src="../Js Files/Auth.js"></script>
   </body>
 </html>
