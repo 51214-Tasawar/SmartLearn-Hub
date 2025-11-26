@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page </title>
-    <link rel="stylesheet" href="../Css.files/Index.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../Css.files/Index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-        <h2>SrmartLearn-Hub</h2>
+      <div class="logo">
+        <i class="fa-solid fa-graduation-cap" style="font-size: 40px"></i>
+        <a class="">SrmartLearn-Hub</a>
+      </div>
+      <nav>
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-book-open"></i><a>Courses</a>
         </div>
-        <nav>
-        <a>Home</a>
-        <a>Courses</a>
-        <a>Contact</a>
-        <a>About Us</a>
-        </nav>
+        <div class="flex items-center gap-2">
+          <i class="fa-sharp fa-solid fa-chart-line"></i><a>Dashboard</a>
+        </div>
+      </nav>
+      <button id="dashboard">My Learning</button>
     </header>
     <section class="hero">
-    
-   </section>
-   <section class="courses" id="courses">
-    <h1>Courses List</h1>
-     <div class="Trending-Section">
-     <h1>Trending Courses</h1>
-      <div class="Trending-Course">
-        <button>TypeScript</button>
-        <button>JavaScript</button>
-        <button>Python</button>
+      <div>
+        <h1>All Courses</h1>
+        <p id="p-text"></p>
       </div>
-      <div class="">
-
+      <div id="searchbox">
+        <input
+          type="search"
+          id="searchbar"
+          name="searchbar"
+          placeholder="Search here ..."
+        />
       </div>
-     </div>
-   </section>
-   <section>
-
-   </section>
-</body>
+    </section>
+  </body>
 </html>
