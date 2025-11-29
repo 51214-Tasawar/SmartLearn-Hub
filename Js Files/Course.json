@@ -6,7 +6,7 @@
     "CourseDuration": "4 Weeks",
     "member": "1204",
     "rating": "4.7",
-    "description": "Learn the fundamentals of JavaScript, the most popular programming language for web development.",
+    "id": "1",
     "lessons": [
       {"Lesson No": 1, "Title": "Operators and Expressions", "Lesson": "Operators perform operations on variables and values. Arithmetic operators include +, -, *, /, and %. Comparison operators include ==, ===, !=, !==, >, <, >=, <=. Logical operators include &&, ||, and !. Expressions are combinations of values, variables, and operators that produce a result. Understanding how operators and expressions work allows developers to implement logic in programs.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Control Structures", "Lesson": "Control structures manage the flow of execution in JavaScript programs through if, else, switch, loops, and logical branching. They help create dynamic and responsive applications.", "Level": "Basic"},
@@ -27,7 +27,7 @@
     "CourseDuration": "5 Weeks",
     "member": "987",
     "rating": "4.8",
-    "description": "Master TypeScript, a strongly typed superset of JavaScript used in large-scale applications.",
+    "description": "2",
     "lessons": [
       {"Lesson No": 1, "Title": "Introduction & Types", "Lesson": "TypeScript adds static typing to JavaScript, making applications more scalable and less error-prone.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Interfaces & Types", "Lesson": "Interfaces define contracts for objects. Type aliases allow flexible reusable definitions.", "Level": "Basic"},
@@ -47,7 +47,7 @@
     "CourseDuration": "6 Weeks",
     "member": "2104",
     "rating": "4.9",
-    "description": "Learn to build modern UI using React components and hooks.",
+    "description": "3",
     "lessons": [
       {"Lesson No": 1, "Title": "JSX & Components", "Lesson": "JSX blends JS with HTML-like syntax to build components.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Props & State", "Lesson": "Props pass data. State manages component data dynamically.", "Level": "Basic"},
@@ -67,7 +67,7 @@
     "CourseDuration": "7 Weeks",
     "member": "1580",
     "rating": "4.7",
-    "description": "Learn backend development using Node.js and server-side JavaScript.",
+    "description": "4",
     "lessons": [
       {"Lesson No": 1, "Title": "Node Basics", "Lesson": "Node is a JavaScript runtime built on Chrome V8.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Modules", "Lesson": "CommonJS and ES Modules organize backend code.", "Level": "Basic"},
@@ -87,7 +87,7 @@
     "CourseDuration": "4 Weeks",
     "member": "925",
     "rating": "4.6",
-    "description": "Learn MongoDB NoSQL database concepts and CRUD operations.",
+    "description": "5",
     "lessons": [
       {"Lesson No": 1, "Title": "Documents & Collections", "Lesson": "MongoDB stores data in BSON documents.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "CRUD", "Lesson": "Create, Read, Update, Delete operations.", "Level": "Basic"},
@@ -107,7 +107,7 @@
     "CourseDuration": "6 Weeks",
     "member": "3000",
     "rating": "4.8",
-    "description": "Learn Python programming from basics to advanced topics.",
+    "description": "6",
     "lessons": [
       {"Lesson No": 1, "Title": "Variables", "Lesson": "Python has dynamic typing and simple syntax.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Control Flow", "Lesson": "if-else, loops perform logic operations.", "Level": "Basic"},
@@ -127,7 +127,7 @@
     "CourseDuration": "3 Weeks",
     "member": "1870",
     "rating": "4.6",
-    "description": "Learn to structure and style beautiful websites.",
+    "description": "7",
     "lessons": [
       {"Lesson No": 1, "Title": "HTML Basics", "Lesson": "Tags, elements, and structure.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "CSS Basics", "Lesson": "Selectors, classes, and styling.", "Level": "Basic"},
@@ -147,7 +147,7 @@
     "CourseDuration": "5 Weeks",
     "member": "1500",
     "rating": "4.9",
-    "description": "Learn modern full-stack React with Next.js.",
+    "description": "8",
     "lessons": [
       {"Lesson No": 1, "Title": "Routing", "Lesson": "App router & file-based routes.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Rendering", "Lesson": "SSR, SSG, ISR.", "Level": "Basic"},
@@ -167,7 +167,7 @@
     "CourseDuration": "4 Weeks",
     "member": "980",
     "rating": "4.7",
-    "description": "Learn Express.js to build REST APIs efficiently.",
+    "description": "9",
     "lessons": [
       {"Lesson No": 1, "Title": "Server Setup", "Lesson": "Create basic Express server.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Middlewares", "Lesson": "Request processing layers.", "Level": "Basic"},
