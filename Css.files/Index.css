@@ -61,3 +61,17 @@ input{
    background-color: white;
    border-radius: 10px;
 }
+#btn-start{
+    width: 90%;
+    height:30px;
+    background-color: blue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn-start:hover{
+    background-color: green;
+    color: white;
+}
