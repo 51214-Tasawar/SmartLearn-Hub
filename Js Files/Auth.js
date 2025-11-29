@@ -16,7 +16,7 @@ function gologin() {
 
 function login(event) {
   event.preventDefault();
-  let User = localStorage.getItem('User')
+  let User = localStorage.getItem('User') 
   let password = localStorage.getItem('Pass')
   let loginUser = document.getElementById('loginuser').value
   let loginPass = document.getElementById('loginpass').value

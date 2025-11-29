@@ -1,32 +1,182 @@
 [
   {
     "Course": "JavaScript",
+    "image": "https://source.unsplash.com/600x400/?javascript,code",
+    "Tutorname": "John Carter",
+    "CourseDuration": "4 Weeks",
+    "member": "1204",
+    "rating": "4.7",
     "description": "Learn the fundamentals of JavaScript, the most popular programming language for web development.",
     "lessons": [
-      {"Lesson No": 1, "Title": "Introduction to JavaScript", "Lesson": "JavaScript is a high-level, interpreted programming language that allows developers to create interactive web applications. It can manipulate the DOM, handle events, and communicate with servers asynchronously. JavaScript is supported by all modern web browsers, making it essential for front-end development. You can write scripts directly in HTML or in separate JS files. It has a dynamic type system, supports object-oriented, imperative, and functional programming. Understanding JavaScript is crucial for becoming a full-stack developer.", "Status": "Basic"},
-      {"Lesson No": 2, "Title": "Variables and Data Types", "Lesson": "Variables are used to store information in JavaScript and can be declared using var, let, or const. Data types include string, number, boolean, null, undefined, and symbol. Strings hold text, numbers hold numeric values, and booleans are true or false. Null represents an empty value, and undefined indicates a variable that has been declared but not assigned. Understanding how to use different data types helps prevent errors and ensures proper data handling. Variables can be reassigned depending on how they are declared.", "Status": "Basic"},
-      {"Lesson No": 3, "Title": "Operators and Expressions", "Lesson": "Operators perform operations on variables and values. Arithmetic operators include +, -, *, /, and %. Comparison operators include ==, ===, !=, !==, >, <, >=, <=. Logical operators include &&, ||, and !. Expressions are combinations of values, variables, and operators that produce a result. Understanding how operators and expressions work allows developers to implement logic in programs. Proper use of operators ensures calculations and conditions behave as expected.", "Status": "Basic"},
-      {"Lesson No": 4, "Title": "Control Structures", "Lesson": "Control structures manage the flow of execution in JavaScript programs. Conditional statements include if, else if, else, and switch. Loops allow repeated execution of code blocks, such as for, while, and do-while loops. Using control structures helps create dynamic and responsive applications. They are essential for decision-making and automation. Nesting and combining different control structures enables complex functionality. Control structures also help in error handling and validating inputs.", "Status": "Basic"},
-      {"Lesson No": 5, "Title": "Functions", "Lesson": "Functions are reusable blocks of code that perform a specific task. They can accept parameters, return values, and be called multiple times. JavaScript supports function declarations, function expressions, and arrow functions. Functions help organize code, improve readability, and reduce repetition. Scope and closures are important concepts related to functions. Functions can interact with the DOM, handle events, and work with asynchronous operations. They are fundamental to modular and maintainable code.", "Status": "Intermediate"},
-      {"Lesson No": 6, "Title": "Objects and Arrays", "Lesson": "Objects store data in key-value pairs, allowing structured and organized representation. Arrays hold multiple values in an ordered list, accessible by index. JavaScript supports nested objects and arrays, enabling complex data structures. Understanding object and array methods like push, pop, shift, unshift, map, filter, and reduce is important. Objects and arrays are widely used in data manipulation, API responses, and state management. Proper handling ensures efficient and maintainable code.", "Status": "Intermediate"},
-      {"Lesson No": 7, "Title": "DOM Manipulation", "Lesson": "The Document Object Model (DOM) represents HTML documents as a tree structure. JavaScript can access and modify elements using methods like getElementById, querySelector, and createElement. DOM manipulation allows updating content, changing styles, and handling user interactions. Event listeners help respond to clicks, inputs, and other events. Understanding the DOM is essential for interactive web applications. Developers can create, remove, or modify elements dynamically. Proper use of DOM methods ensures smooth and responsive user experiences.", "Status": "Intermediate"},
-      {"Lesson No": 8, "Title": "Events and Event Listeners", "Lesson": "Events are actions that occur in the browser, like clicks, mouse movements, key presses, or form submissions. Event listeners are functions that respond to these events using addEventListener. Developers can prevent default behavior, stop propagation, and handle multiple event types. Event-driven programming makes applications interactive and responsive. Event delegation allows efficient handling of events for multiple elements. Combining events with DOM manipulation creates dynamic web applications. Proper event management ensures accessibility and performance.", "Status": "Intermediate"},
-      {"Lesson No": 9, "Title": "Asynchronous JavaScript", "Lesson": "JavaScript executes code synchronously by default but supports asynchronous operations using callbacks, promises, and async/await. Asynchronous programming is essential for handling APIs, timers, and file operations without blocking execution. Promises represent the eventual completion or failure of an asynchronous task. Async/await simplifies working with promises and improves readability. Handling errors in asynchronous code is important to prevent crashes. Proper asynchronous design ensures responsive applications. Understanding event loops and task queues is critical.", "Status": "Advanced"},
-      {"Lesson No": 10, "Title": "ES6+ Features", "Lesson": "ES6 introduced modern JavaScript features like arrow functions, template literals, destructuring, default parameters, and spread/rest operators. These features improve code readability, reduce boilerplate, and enhance functionality. Modules, classes, and block-scoped variables provide better structure. Understanding these features is essential for modern JavaScript development. They enable cleaner, more maintainable, and scalable code. Familiarity with ES6+ syntax is required for frameworks and libraries.", "Status": "Advanced"},
-      {"Lesson No": 11, "Title": "Modules and Imports", "Lesson": "Modules allow dividing code into reusable pieces, exporting functions, classes, or variables. Imports allow bringing these modules into other files. This improves maintainability, readability, and organization. Using modules helps avoid global namespace pollution. JavaScript supports both named and default exports. Proper modular design allows team collaboration and better code reuse. Understanding module systems is necessary for working with modern frameworks.", "Status": "Advanced"},
-      {"Lesson No": 12, "Title": "Debugging and Best Practices", "Lesson": "Debugging JavaScript code involves using console.log, breakpoints, and developer tools to find and fix errors. Best practices include using meaningful variable names, consistent formatting, modular code, and commenting. Testing functions and handling errors improve reliability. Following coding standards enhances readability and maintainability. Performance optimization and avoiding common pitfalls ensure efficient applications. Debugging skills are essential for professional development.", "Status": "Advanced"}
+      {"Lesson No": 1, "Title": "Operators and Expressions", "Lesson": "Operators perform operations on variables and values. Arithmetic operators include +, -, *, /, and %. Comparison operators include ==, ===, !=, !==, >, <, >=, <=. Logical operators include &&, ||, and !. Expressions are combinations of values, variables, and operators that produce a result. Understanding how operators and expressions work allows developers to implement logic in programs.", "Level": "Basic"},
+      {"Lesson No": 2, "Title": "Control Structures", "Lesson": "Control structures manage the flow of execution in JavaScript programs through if, else, switch, loops, and logical branching. They help create dynamic and responsive applications.", "Level": "Basic"},
+      {"Lesson No": 3, "Title": "Functions", "Lesson": "Functions are reusable blocks of code. JavaScript supports function declarations, expressions, and arrow functions. Functions improve code reusability and structure.", "Level": "Intermediate"},
+      {"Lesson No": 4, "Title": "Objects and Arrays", "Lesson": "Objects store data in key-value pairs, arrays store ordered lists. Understanding methods like map, filter, reduce is essential for data manipulation.", "Level": "Intermediate"},
+      {"Lesson No": 5, "Title": "Modules and Imports", "Lesson": "Modules help structure code. ES6 introduced import and export statements for modular JavaScript development.", "Level": "Advanced"}
     ],
     "quiz": [
-      {"question": "Which keyword declares a variable in JavaScript?", "options": ["var", "let", "const", "All of the above"], "answer": "All of the above"},
-      {"question": "Which data type can store multiple values in a single variable?", "options": ["String", "Number", "Array", "Boolean"], "answer": "Array"},
-      {"question": "Which method is used to add an element at the end of an array?", "options": ["push()", "pop()", "shift()", "unshift()"], "answer": "push()"},
-      {"question": "Which event is triggered when a user clicks a button?", "options": ["onclick", "onhover", "onchange", "oninput"], "answer": "onclick"},
-      {"question": "Which keyword is used to define a function in JavaScript?", "options": ["function", "var", "let", "const"], "answer": "function"},
-      {"question": "Which operator is used to compare both value and type?", "options": ["==", "!=", "===", "="], "answer": "==="},
-      {"question": "What does async/await help with in JavaScript?", "options": ["Synchronous execution", "Asynchronous programming", "DOM manipulation", "Variable declaration"], "answer": "Asynchronous programming"},
-      {"question": "Which feature introduced in ES6 allows concise function syntax?", "options": ["Arrow functions", "Template literals", "Destructuring", "Modules"], "answer": "Arrow functions"},
-      {"question": "Which method removes the last element from an array?", "options": ["pop()", "push()", "shift()", "unshift()"], "answer": "pop()"},
-      {"question": "Which tool is commonly used for debugging JavaScript in browsers?", "options": ["console.log", "alert", "prompt", "document.write"], "answer": "console.log"}
+      {"question": "Which keyword declares a variable?", "options": ["var","let","const","All of the above"], "answer": "All of the above"},
+      {"question": "Which data type stores multiple values?", "options": ["String","Number","Array","Boolean"], "answer": "Array"}
+    ]
+  },
+
+  {
+    "Course": "TypeScript",
+    "image": "https://source.unsplash.com/600x400/?typescript,code",
+    "Tutorname": "Emma Thompson",
+    "CourseDuration": "5 Weeks",
+    "member": "987",
+    "rating": "4.8",
+    "description": "Master TypeScript, a strongly typed superset of JavaScript used in large-scale applications.",
+    "lessons": [
+      {"Lesson No": 1, "Title": "Introduction & Types", "Lesson": "TypeScript adds static typing to JavaScript, making applications more scalable and less error-prone.", "Level": "Basic"},
+      {"Lesson No": 2, "Title": "Interfaces & Types", "Lesson": "Interfaces define contracts for objects. Type aliases allow flexible reusable definitions.", "Level": "Basic"},
+      {"Lesson No": 3, "Title": "Functions & Generics", "Lesson": "Generics help create reusable and flexible components.", "Level": "Intermediate"},
+      {"Lesson No": 4, "Title": "Classes & OOP", "Lesson": "TypeScript supports OOP with classes, inheritance, and access modifiers.", "Level": "Intermediate"},
+      {"Lesson No": 5, "Title": "Decorators & Modules", "Lesson": "Decorators add metadata and enhance classes. Modules organize scalable apps.", "Level": "Advanced"}
+    ],
+    "quiz": [
+      {"question": "TypeScript is a ____ of JavaScript?", "options": ["Library","Framework","Superset","Plugin"], "answer": "Superset"}
+    ]
+  },
+
+  {
+    "Course": "React.js",
+    "image": "https://source.unsplash.com/600x400/?reactjs,frontend",
+    "Tutorname": "Michael Johnson",
+    "CourseDuration": "6 Weeks",
+    "member": "2104",
+    "rating": "4.9",
+    "description": "Learn to build modern UI using React components and hooks.",
+    "lessons": [
+      {"Lesson No": 1, "Title": "JSX & Components", "Lesson": "JSX blends JS with HTML-like syntax to build components.", "Level": "Basic"},
+      {"Lesson No": 2, "Title": "Props & State", "Lesson": "Props pass data. State manages component data dynamically.", "Level": "Basic"},
+      {"Lesson No": 3, "Title": "Hooks", "Lesson": "useState, useEffect, useRef make functional components powerful.", "Level": "Intermediate"},
+      {"Lesson No": 4, "Title": "Context API", "Lesson": "Used for global state management without prop drilling.", "Level": "Intermediate"},
+      {"Lesson No": 5, "Title": "Optimization", "Lesson": "React.memo, useCallback reduce unnecessary re-renders.", "Level": "Advanced"}
+    ],
+    "quiz": [
+      {"question": "React is a ____?", "options": ["Library","Framework","Language","Compiler"], "answer": "Library"}
+    ]
+  },
+
+  {
+    "Course": "Node.js",
+    "image": "https://source.unsplash.com/600x400/?nodejs,backend",
+    "Tutorname": "David Williams",
+    "CourseDuration": "7 Weeks",
+    "member": "1580",
+    "rating": "4.7",
+    "description": "Learn backend development using Node.js and server-side JavaScript.",
+    "lessons": [
+      {"Lesson No": 1, "Title": "Node Basics", "Lesson": "Node is a JavaScript runtime built on Chrome V8.", "Level": "Basic"},
+      {"Lesson No": 2, "Title": "Modules", "Lesson": "CommonJS and ES Modules organize backend code.", "Level": "Basic"},
+      {"Lesson No": 3, "Title": "File System", "Lesson": "Perform file operations using fs module.", "Level": "Intermediate"},
+      {"Lesson No": 4, "Title": "Express.js", "Lesson": "Express helps create server APIs easily.", "Level": "Intermediate"},
+      {"Lesson No": 5, "Title": "Auth", "Lesson": "JWT authentication and hashing improve security.", "Level": "Advanced"}
+    ],
+    "quiz": [
+      {"question": "Node.js runs on ____?", "options": ["Browser","Server","Mobile","AI"], "answer": "Server"}
+    ]
+  },
+
+  {
+    "Course": "MongoDB",
+    "image": "https://source.unsplash.com/600x400/?database,mongodb",
+    "Tutorname": "Sophia Miller",
+    "CourseDuration": "4 Weeks",
+    "member": "925",
+    "rating": "4.6",
+    "description": "Learn MongoDB NoSQL database concepts and CRUD operations.",
+    "lessons": [
+      {"Lesson No": 1, "Title": "Documents & Collections", "Lesson": "MongoDB stores data in BSON documents.", "Level": "Basic"},
+      {"Lesson No": 2, "Title": "CRUD", "Lesson": "Create, Read, Update, Delete operations.", "Level": "Basic"},
+      {"Lesson No": 3, "Title": "Aggregation", "Lesson": "Powerful queries using pipeline.", "Level": "Intermediate"},
+      {"Lesson No": 4, "Title": "Indexes", "Lesson": "Indexes improve query performance.", "Level": "Intermediate"},
+      {"Lesson No": 5, "Title": "Deployment", "Lesson": "Use MongoDB Atlas for cloud hosting.", "Level": "Advanced"}
+    ],
+    "quiz": [
+      {"question": "MongoDB stores data as ____?", "options": ["Tables","Rows","Documents","Keys"], "answer": "Documents"}
+    ]
+  },
+
+  {
+    "Course": "Python",
+    "image": "https://source.unsplash.com/600x400/?python,programming",
+    "Tutorname": "Olivia Brown",
+    "CourseDuration": "6 Weeks",
+    "member": "3000",
+    "rating": "4.8",
+    "description": "Learn Python programming from basics to advanced topics.",
+    "lessons": [
+      {"Lesson No": 1, "Title": "Variables", "Lesson": "Python has dynamic typing and simple syntax.", "Level": "Basic"},
+      {"Lesson No": 2, "Title": "Control Flow", "Lesson": "if-else, loops perform logic operations.", "Level": "Basic"},
+      {"Lesson No": 3, "Title": "Functions", "Lesson": "Define reusable logic blocks.", "Level": "Intermediate"},
+      {"Lesson No": 4, "Title": "OOP", "Lesson": "Classes, objects, polymorphism.", "Level": "Intermediate"},
+      {"Lesson No": 5, "Title": "Modules", "Lesson": "Import libraries for powerful features.", "Level": "Advanced"}
+    ],
+    "quiz": [
+      {"question": "Python is ____ typed?", "options": ["Static","Dynamic"], "answer": "Dynamic"}
+    ]
+  },
+
+  {
+    "Course": "HTML & CSS",
+    "image": "https://source.unsplash.com/600x400/?html,css,design",
+    "Tutorname": "Chris Evans",
+    "CourseDuration": "3 Weeks",
+    "member": "1870",
+    "rating": "4.6",
+    "description": "Learn to structure and style beautiful websites.",
+    "lessons": [
+      {"Lesson No": 1, "Title": "HTML Basics", "Lesson": "Tags, elements, and structure.", "Level": "Basic"},
+      {"Lesson No": 2, "Title": "CSS Basics", "Lesson": "Selectors, classes, and styling.", "Level": "Basic"},
+      {"Lesson No": 3, "Title": "Flexbox", "Lesson": "1D layouts and alignment.", "Level": "Intermediate"},
+      {"Lesson No": 4, "Title": "Grid", "Lesson": "2D modern layouts.", "Level": "Intermediate"},
+      {"Lesson No": 5, "Title": "Responsive Design", "Lesson": "Media queries and breakpoints.", "Level": "Advanced"}
+    ],
+    "quiz": [
+      {"question": "CSS stands for?", "options": ["Creative Style Sheet","Cascading Style Sheets","Color Style System"], "answer": "Cascading Style Sheets"}
+    ]
+  },
+
+  {
+    "Course": "Next.js",
+    "image": "https://source.unsplash.com/600x400/?nextjs,react",
+    "Tutorname": "Daniel Garcia",
+    "CourseDuration": "5 Weeks",
+    "member": "1500",
+    "rating": "4.9",
+    "description": "Learn modern full-stack React with Next.js.",
+    "lessons": [
+      {"Lesson No": 1, "Title": "Routing", "Lesson": "App router & file-based routes.", "Level": "Basic"},
+      {"Lesson No": 2, "Title": "Rendering", "Lesson": "SSR, SSG, ISR.", "Level": "Basic"},
+      {"Lesson No": 3, "Title": "API Routes", "Lesson": "Backend inside Next.js.", "Level": "Intermediate"},
+      {"Lesson No": 4, "Title": "Middleware", "Lesson": "Auth & redirects.", "Level": "Intermediate"},
+      {"Lesson No": 5, "Title": "Deployment", "Lesson": "Deploy on Vercel.", "Level": "Advanced"}
+    ],
+    "quiz": [
+      {"question": "Next.js is built on ____?", "options": ["Vue","Angular","React","Svelte"], "answer": "React"}
+    ]
+  },
+
+  {
+    "Course": "Express.js",
+    "image": "https://source.unsplash.com/600x400/?expressjs,node",
+    "Tutorname": "William Scott",
+    "CourseDuration": "4 Weeks",
+    "member": "980",
+    "rating": "4.7",
+    "description": "Learn Express.js to build REST APIs efficiently.",
+    "lessons": [
+      {"Lesson No": 1, "Title": "Server Setup", "Lesson": "Create basic Express server.", "Level": "Basic"},
+      {"Lesson No": 2, "Title": "Middlewares", "Lesson": "Request processing layers.", "Level": "Basic"},
+      {"Lesson No": 3, "Title": "Routing", "Lesson": "Dynamic routing.", "Level": "Intermediate"},
+      {"Lesson No": 4, "Title": "Databases", "Lesson": "MongoDB integration.", "Level": "Intermediate"},
+      {"Lesson No": 5, "Title": "Security", "Lesson": "CORS, JWT, Helmet.", "Level": "Advanced"}
+    ],
+    "quiz": [
+      {"question": "Express runs on ____?", "options": ["Python","Java","Node.js","PHP"], "answer": "Node.js"}
     ]
   }
 ]
