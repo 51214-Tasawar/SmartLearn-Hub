@@ -1,11 +1,12 @@
-fetch("Cousre.json")
-.then((Course)=>Course.json())
+fetch("../Course.json")
+.then((Courses)=>Courses.json())
 .then(data=>{
-    data.map((course)=>(
-    document.getElementById("Courses").innerHTML = `
- <div  style=" width: 330px; height: 390px; background-color: antiquewhite ; border-radius: 10px;">
+    let cards = ""
+    data.forEach((course)=>(     
+        cards +=  `
+    <div  style=" width: 370px; height: 390px; background-color: antiquewhite ; border-radius: 10px;">
         <div style="display: flex; width: 100%; height: 45%">
-          <img src=${course.image}/>
+          <img src="${course.image}"/>
         </div>
         <div style="display: flex;flex-direction: column;width: 100%;justify-content: flex-start;
             padding: 10px; gap: 20px;">
@@ -13,15 +14,15 @@ fetch("Cousre.json")
               text-align: center;">${course.Course}</p>
           <p style="font-size: 20px; font-weight: 500">by ${course.Tutorname}</p>
           <div style="display: flex; justify-content: space-evenly">
-            <div style="display: flex; display: inline; gap: 10px">
+            <div style="display: flex; justify-content: center; align-items: center; gap: 10px">
               <i class="text-yellow-400 fa fa-star"></i>
               <p>${course.rating}</p>
             </div>
-            <div style="display: flex; gap: 10px">
+            <div style="display: flex; justify-content: center; align-items: center; gap: 10px">
               <i class="fa fa-users"></i>
               <p>${course.member}</p>
             </div>
-            <div style="display: flex; display: inline; gap: 10px">
+            <div style="display: flex; justify-content: center; align-items: center; gap: 10px">
               <i class="fa-regular fa-clock"></i>
               <p>${course.CourseDuration}</p>
             </div>
@@ -35,4 +36,8 @@ fetch("Cousre.json")
         </div>
       </div> `
     ))
+    document.getElementById("Courses").innerHTML = cards
+}).catch((error)=>{
+    console.log(`Error Is ${error}`)
 })
+
