@@ -1,68 +1,97 @@
-*{
-    margin: 0%;
+* {
+  margin: 0%;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-    width: 100%;
-    background-color:antiquewhite ;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: antiquewhite;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-    gap: 10px;
-    height: 80%;
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap: 10px;
+  height: 80%;
 }
-nav{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    gap: 20px;
-    margin-right: 20px;
+.logo-Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
 }
-#dashboard{
- margin-right: 40px;
- background-color: antiquewhite;
- height: 40%;
- font-weight: 600;
+nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 20px;
+  margin-right: 20px;
 }
-.hero{
+#Trending{
     display: flex;
     flex-direction: column;
-    height: max-content;
-    background-color: rgb(243, 210, 166);
-    gap: 20px;
-    padding: 10px;
+    width: screen;
+    height: 100vh;
+    gap: 50px;
 }
-#searchbox{
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#dashboard {
+  margin-right: 40px;
+  background-color: antiquewhite;
+  height: 40%;
+  font-weight: 600;
+  cursor: pointer;
 }
-input{
-    width: 80%;
-    background-color: antiquewhite;
-    height: 70%;
-    border-radius: 10px;
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  background-color: rgb(243, 210, 166);
+  gap: 20px;
+  padding: 10px;
 }
-#Courses{
+#searchbox {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 80%;
+  background-color: antiquewhite;
+  height: 70%;
+  border-radius: 10px;
+}
+#TrendingCourse{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 40px;
-    height: max-content;
 }
-.footer{
-    width: 100%;
-    height: 50vh;
-    background-color: rgb(245, 203, 148);
+#Courses {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+  height: max-content;
+}
+.footer {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(245, 203, 148);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.f-cards{
     display: flex;
+    flex-direction: column;
+    width: 25%;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
-
+.Achors{
+    cursor: pointer;
+}

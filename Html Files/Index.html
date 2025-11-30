@@ -15,22 +15,24 @@
     <header>
       <div class="logo">
         <i class="fa-solid fa-graduation-cap" style="font-size: 40px"></i>
-        <a class="">SmartLearn-Hub</a>
+        <a class="logo-Text">SmartLearn-Hub</a>
       </div>
       <nav>
         <div class="flex items-center gap-2">
-          <i class="fa-solid fa-book-open"></i><a>Courses</a>
+          <i class="fa-solid fa-book-open"></i><a href="./Index.html">Courses</a>
         </div>
         <div class="flex items-center gap-2">
-          <i class="fa-sharp fa-solid fa-chart-line"></i><a>Dashboard</a>
+          <i class="fa-sharp fa-solid fa-chart-line"></i><a href="./Dashboard.html">Dashboard</a>
         </div>
       </nav>
-      <button id="dashboard">My Learning</button>
+      <a id="dashboard" href="./Dashboard.html">My Learning</a>
     </header>
 
     <section class="hero">
-      <div class="min-w-screen h-[60vh] p-5">
+      <div id="Trending">
         <h1 class="text-3xl font-bold text-center">Trending Courses</h1>
+        <div id="TrendingCourse">
+        </div>
       </div>
       <div class="">
         <h1 class="text-3xl font-bold text-center">All Courses</h1>
@@ -47,23 +49,41 @@
       </div>
       <div id="Courses"></div>
     </section>
-    <section class="footer">
-      <div
-        style="
-          width: 30%;
-          height: 100%;
-          justify-content: center;
-          align-items: center;
-        "
-      >
-        <div style="display: flex; width: 100%">
-          <i class="fa-solid fa-graduation-cap" style="font-size: 40px"></i>
-          <a style="display: flex; justify-content: center; align-items: center;
-          font-weight: 600; font-size: 20px;"
-            >SmartLearn-Hub</a
-          >
-        </div>
+    <section class="footer"> 
+
+      <div style="display: flex; flex-direction: column;  width: 30%; gap: 20px;">
+        <div class="logo">
+        <i class="fa-solid fa-graduation-cap" style="font-size: 40px"></i>
+        <a class="logo-Text">SmartLearn-Hub</a>
       </div>
+      <p style="width: 80%;">Empowering learners worldwide with high-quality
+         education and interactive courses</p>
+      </div>
+      
+    <div class="f-cards">
+     <a class="logo-Text">Platform</a>
+     <div style="display: flex; flex-direction: column; gap: 10px;">
+      <a class="Achors">Courses</a>
+      <a class="Achors">Instructors</a>
+      <a class="Achors">Dashboard</a>
+     </div>
+      </div>
+      <div class="f-cards">
+     <a class="logo-Text">Support</a>
+     <div style="display: flex; flex-direction: column; gap: 10px;">
+      <a class="Achors">Help Center</a>
+      <a class="Achors">Contact Us</a>
+      <a class="Achors">FAQ</a>
+     </div>
+      </div>
+      <div class="f-cards">
+     <a class="logo-Text">Legal</a>
+     <div style="display: flex; flex-direction: column; gap: 10px;">
+      <a class="Achors">Privacy Policy</a>
+      <a class="Achors">Terms of Service</a>
+      <a class="Achors">Cookie Policy</a>
+     </div>
+     </div>
     </section>
     <script src="../Js Files/Index.js"></script>
   </body>

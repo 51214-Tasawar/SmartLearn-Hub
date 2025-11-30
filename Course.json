@@ -5,7 +5,7 @@
     "Tutorname": "John Carter",
     "CourseDuration": "4 Weeks",
     "member": "1204",
-    "rating": "4.7",
+    "rating": "4.8",
     "id": "1",
     "lessons": [
       {"Lesson No": 1, "Title": "Operators and Expressions", "Lesson": "Operators perform operations on variables and values. Arithmetic operators include +, -, *, /, and %. Comparison operators include ==, ===, !=, !==, >, <, >=, <=. Logical operators include &&, ||, and !. Expressions are combinations of values, variables, and operators that produce a result. Understanding how operators and expressions work allows developers to implement logic in programs.", "Level": "Basic"},
@@ -46,7 +46,7 @@
     "Tutorname": "Michael Johnson",
     "CourseDuration": "6 Weeks",
     "member": "2104",
-    "rating": "4.9",
+    "rating": "4.5",
     "description": "3",
     "lessons": [
       {"Lesson No": 1, "Title": "JSX & Components", "Lesson": "JSX blends JS with HTML-like syntax to build components.", "Level": "Basic"},
@@ -66,7 +66,7 @@
     "Tutorname": "David Williams",
     "CourseDuration": "7 Weeks",
     "member": "1580",
-    "rating": "4.7",
+    "rating": "4.4",
     "description": "4",
     "lessons": [
       {"Lesson No": 1, "Title": "Node Basics", "Lesson": "Node is a JavaScript runtime built on Chrome V8.", "Level": "Basic"},
@@ -86,7 +86,7 @@
     "Tutorname": "Sophia Miller",
     "CourseDuration": "4 Weeks",
     "member": "925",
-    "rating": "4.6",
+    "rating": "4.4",
     "description": "5",
     "lessons": [
       {"Lesson No": 1, "Title": "Documents & Collections", "Lesson": "MongoDB stores data in BSON documents.", "Level": "Basic"},
@@ -126,7 +126,7 @@
     "Tutorname": "Chris Evans",
     "CourseDuration": "3 Weeks",
     "member": "1870",
-    "rating": "4.6",
+    "rating": "4.3",
     "description": "7",
     "lessons": [
       {"Lesson No": 1, "Title": "HTML Basics", "Lesson": "Tags, elements, and structure.", "Level": "Basic"},
@@ -146,7 +146,7 @@
     "Tutorname": "Daniel Garcia",
     "CourseDuration": "5 Weeks",
     "member": "1500",
-    "rating": "4.9",
+    "rating": "4.6",
     "description": "8",
     "lessons": [
       {"Lesson No": 1, "Title": "Routing", "Lesson": "App router & file-based routes.", "Level": "Basic"},
@@ -166,7 +166,7 @@
     "Tutorname": "William Scott",
     "CourseDuration": "4 Weeks",
     "member": "980",
-    "rating": "4.7",
+    "rating": "4.5",
     "description": "9",
     "lessons": [
       {"Lesson No": 1, "Title": "Server Setup", "Lesson": "Create basic Express server.", "Level": "Basic"},
