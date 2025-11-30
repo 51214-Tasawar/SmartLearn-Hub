@@ -1,11 +1,11 @@
-
+// Trending Courses
 fetch("../Course.json")
-.then((Courses)=>Courses.json())
-.then(data=>{
-    let cards = ""
-    data.map((course)=>(     
-        cards +=  `
-    <div  style=" width: 370px; height: 390px; background-color: antiquewhite ; border-radius: 10px;">
+.then(res=>res.json())
+.then(Tcourse=>{
+  let Tcard = ""
+  Tcourse.map((course)=>{
+    if(course.rating >= 4.8 ){
+      Tcard += ` <div  style=" width: 370px; height: 390px; background-color: antiquewhite ; border-radius: 10px;">
         <div style="display: flex; width: 100%; height: 45%">
           <img src="${course.image}"/>
         </div>
@@ -30,17 +30,13 @@ fetch("../Course.json")
           </div>
           <div style="display: flex; justify-content: center">
             <button style="width: 80%;height: 30px;background-color: blue;
-                border-radius: 10px;color: white;cursor: pointer;">
+              border-radius: 10px;color: white;cursor: pointer;">
               Start Course
             </button>
           </div>
         </div>
-      </div> `
-    ))
-    document.getElementById("Courses").innerHTML = cards
-}).catch((error)=>{
-    console.log(`Error Is ${error}`)
+      </div>`
+    }
+  })
+  document.getElementById("TrendingCourse").innerHTML = Tcard
 })
-
-
-
