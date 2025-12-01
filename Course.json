@@ -1,6 +1,7 @@
 [
   {
     "Course": "JavaScript",
+    "description": "Learn the fundamentals of JavaScript, including variables, functions, objects, and DOM manipulation, to build dynamic web applications.",
     "image": "https://source.unsplash.com/600x400/?javascript,code",
     "Tutorname": "John Carter",
     "CourseDuration": "4 Weeks",
@@ -22,12 +23,13 @@
 
   {
     "Course": "TypeScript",
+    "description": "Master TypeScript to write strongly-typed, scalable, and maintainable JavaScript applications for professional development.",
     "image": "https://source.unsplash.com/600x400/?typescript,code",
     "Tutorname": "Emma Thompson",
     "CourseDuration": "5 Weeks",
     "member": "987",
     "rating": "4.8",
-    "description": "2",
+    "id": "2",
     "lessons": [
       {"Lesson No": 1, "Title": "Introduction & Types", "Lesson": "TypeScript adds static typing to JavaScript, making applications more scalable and less error-prone.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Interfaces & Types", "Lesson": "Interfaces define contracts for objects. Type aliases allow flexible reusable definitions.", "Level": "Basic"},
@@ -42,12 +44,13 @@
 
   {
     "Course": "React.js",
+    "description": "Build interactive, component-based user interfaces with React.js and learn modern frontend development techniques.",
     "image": "https://source.unsplash.com/600x400/?reactjs,frontend",
     "Tutorname": "Michael Johnson",
     "CourseDuration": "6 Weeks",
     "member": "2104",
     "rating": "4.5",
-    "description": "3",
+    "id": "3",
     "lessons": [
       {"Lesson No": 1, "Title": "JSX & Components", "Lesson": "JSX blends JS with HTML-like syntax to build components.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Props & State", "Lesson": "Props pass data. State manages component data dynamically.", "Level": "Basic"},
@@ -62,12 +65,13 @@
 
   {
     "Course": "Node.js",
+    "description": "Learn Node.js to build fast and scalable backend applications using JavaScript, including APIs, server logic, and database integration.",
     "image": "https://source.unsplash.com/600x400/?nodejs,backend",
     "Tutorname": "David Williams",
     "CourseDuration": "7 Weeks",
     "member": "1580",
     "rating": "4.4",
-    "description": "4",
+    "id": "4",
     "lessons": [
       {"Lesson No": 1, "Title": "Node Basics", "Lesson": "Node is a JavaScript runtime built on Chrome V8.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Modules", "Lesson": "CommonJS and ES Modules organize backend code.", "Level": "Basic"},
@@ -82,12 +86,13 @@
 
   {
     "Course": "MongoDB",
+    "description": "Understand MongoDB, a NoSQL database, and learn to store, query, and manage data for modern web applications.",
     "image": "https://source.unsplash.com/600x400/?database,mongodb",
     "Tutorname": "Sophia Miller",
     "CourseDuration": "4 Weeks",
     "member": "925",
     "rating": "4.4",
-    "description": "5",
+    "id": "5",
     "lessons": [
       {"Lesson No": 1, "Title": "Documents & Collections", "Lesson": "MongoDB stores data in BSON documents.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "CRUD", "Lesson": "Create, Read, Update, Delete operations.", "Level": "Basic"},
@@ -102,12 +107,13 @@
 
   {
     "Course": "Python",
+    "description": "Learn Python programming from basics to advanced topics, including variables, functions, OOP, and data handling for real-world applications.",
     "image": "https://source.unsplash.com/600x400/?python,programming",
     "Tutorname": "Olivia Brown",
     "CourseDuration": "6 Weeks",
     "member": "3000",
     "rating": "4.8",
-    "description": "6",
+    "id": "6",
     "lessons": [
       {"Lesson No": 1, "Title": "Variables", "Lesson": "Python has dynamic typing and simple syntax.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Control Flow", "Lesson": "if-else, loops perform logic operations.", "Level": "Basic"},
@@ -122,12 +128,13 @@
 
   {
     "Course": "HTML & CSS",
+    "description": "Master the building blocks of the web with HTML and CSS, creating structured, responsive, and visually appealing websites.",
     "image": "https://source.unsplash.com/600x400/?html,css,design",
     "Tutorname": "Chris Evans",
     "CourseDuration": "3 Weeks",
     "member": "1870",
     "rating": "4.3",
-    "description": "7",
+    "id": "7",
     "lessons": [
       {"Lesson No": 1, "Title": "HTML Basics", "Lesson": "Tags, elements, and structure.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "CSS Basics", "Lesson": "Selectors, classes, and styling.", "Level": "Basic"},
@@ -142,12 +149,13 @@
 
   {
     "Course": "Next.js",
+    "description": "Learn Next.js to build fast, server-rendered React applications with routing, API routes, and optimized performance.",
     "image": "https://source.unsplash.com/600x400/?nextjs,react",
     "Tutorname": "Daniel Garcia",
     "CourseDuration": "5 Weeks",
     "member": "1500",
     "rating": "4.6",
-    "description": "8",
+    "id": "8",
     "lessons": [
       {"Lesson No": 1, "Title": "Routing", "Lesson": "App router & file-based routes.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Rendering", "Lesson": "SSR, SSG, ISR.", "Level": "Basic"},
@@ -162,12 +170,13 @@
 
   {
     "Course": "Express.js",
+    "description": "Master Express.js to build backend APIs, handle routing, middlewares, and integrate with databases efficiently.",
     "image": "https://source.unsplash.com/600x400/?expressjs,node",
     "Tutorname": "William Scott",
     "CourseDuration": "4 Weeks",
     "member": "980",
     "rating": "4.5",
-    "description": "9",
+    "id": "9",
     "lessons": [
       {"Lesson No": 1, "Title": "Server Setup", "Lesson": "Create basic Express server.", "Level": "Basic"},
       {"Lesson No": 2, "Title": "Middlewares", "Lesson": "Request processing layers.", "Level": "Basic"},
