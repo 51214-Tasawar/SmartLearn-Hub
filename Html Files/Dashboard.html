@@ -12,7 +12,7 @@
     />
   </head>
   <body>
-<!--Header Section-->
+    <!--Header Section-->
     <header>
       <div class="logo">
         <i class="fa-solid fa-graduation-cap" style="font-size: 40px"></i>
@@ -20,57 +20,125 @@
       </div>
       <nav>
         <div class="flex items-center gap-2">
-          <i class="fa-solid fa-book-open"></i><a href="./Index.html">Courses</a>
+          <i class="fa-solid fa-book-open"></i
+          ><a href="./Index.html">Courses</a>
         </div>
         <div class="flex items-center gap-2">
-          <i class="fa-sharp fa-solid fa-chart-line"></i><a href="./Dashboard.html">Dashboard</a>
+          <i class="fa-sharp fa-solid fa-chart-line"></i
+          ><a href="./Dashboard.html">Dashboard</a>
         </div>
       </nav>
       <a id="dashboard" href="./Dashboard.html">My Learning</a>
     </header>
-<!--  Hero Section -->
-    <section>
-
-    </section>
-<!--  Foooter Section -->
-    <section class="footer"> 
-    <div class="f-1">
-      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 30%; ">
-        <div class="logo">
-        <i class="fa-solid fa-graduation-cap" style="font-size: 40px"></i>
-        <a class="logo-Text">SmartLearn-Hub</a>
+    <!--  Hero Section -->
+    <section class="Dashboardhero">
+      <h1 style="font-size: 20px; font-weight: 600; padding: 10px">
+        My Learning Dashboard
+      </h1>
+      <p style="padding: 2px">Track Your Progress and continue Learing</p>
+      <div id="Progress">
+      <!-- No Enrollment Board -->
+        <div id="NoEnrollment">
+          <i class="fa-solid fa-book-open" style="font-size: 50px;"></i>
+          <p style="font-size: 30px; font-weight: 600;"> No Enrollment Courses Yet </p>
+          <p>Start your learning journey by enrolling in a course</p>
+          <a class="browse-btn" href="./Index.html">Browse Course</a>
         </div>
-        <p style="width: 70%; margin: 0%;">Empowering learners worldwide with high-quality
-         education and interactive courses</p>
+         <!-- Enrollment and progress -->
+          <div id="ProgressBoards"> 
+          <!-- Enrolled Card -->
+             <div id="Enrolled">
+              <div class="cardsIcon">
+               <i class="fa-solid fa-book-open"></i>
+              </div>
+              <div class="cardText">
+                <p style="font-size: 20px; font-weight: 500;">Enrooled Courses</p>
+                <p id="EnrooledNum"></p>
+              </div>
+             </div> 
+          <!-- Course Completed Card -->
+            <div id="Completed">
+              <div class="cardsIcon">
+               <i class="fa-solid fa-circle-check"></i>
+              </div>
+              <div class="cardText">
+                <p style="font-size: 20px; font-weight: 500;">Completed</p>
+                <p id="Cnum"></p>
+              </div>
+             </div> 
+            <!--  Lesson Completed -->
+            <div id="Lessons">
+              <div class="cardsIcon">
+               <i class="fa-solid fa-medal"></i>
+              </div>
+              <div class="cardText">
+                <p style="font-size: 20px; font-weight: 500;">Lesson completed</p>
+                <p id="Enum"></p>
+              </div>
+            </div>
+            <!--Progress Card-->
+            <div id="pcard">
+              <div class="cardsIcon">
+               <i class="fa-solid fa-circle-half-stroke" style="color: black;"></i>
+              </div>
+              <div class="cardText">
+                <p style="font-size: 20px; font-weight: 500;">Overalll Progress</p>
+                <p id="Pnum"></p>
+              </div>
+            </div>
+
+          </div>
       </div>
-    <div class="f-cards">
-     <a class="logo-Text">Platform</a>
-     <div style="display: flex; flex-direction: column; gap: 10px;">
-      <a class="Achors" href="#courses-list">Courses</a>
-      <a class="Achors" href="#courses-list">Instructors</a>
-      <a class="Achors" href="#courses-list">Dashboard</a>
-     </div>
+    </section>
+    <!--  Foooter Section -->
+    <section class="footer">
+      <div class="f-1">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 30%;
+          "
+        >
+          <div class="logo">
+            <i class="fa-solid fa-graduation-cap" style="font-size: 40px"></i>
+            <a class="logo-Text">SmartLearn-Hub</a>
+          </div>
+          <p style="width: 70%; margin: 0%">
+            Empowering learners worldwide with high-quality education and
+            interactive courses
+          </p>
+        </div>
+        <div class="f-cards">
+          <a class="logo-Text">Platform</a>
+          <div style="display: flex; flex-direction: column; gap: 10px">
+            <a class="Achors" href="./Dashboard.html">Courses</a>
+            <a class="Achors" href="./Dashboard.html">Instructors</a>
+            <a class="Achors" href="./Dashboard.html">Dashboard</a>
+          </div>
+        </div>
+        <div class="f-cards">
+          <a class="logo-Text">Support</a>
+          <div style="display: flex; flex-direction: column; gap: 10px">
+            <a class="Achors" href="./Dashboard.html">Help Center</a>
+            <a class="Achors" href="./Dashboard.html">Contact Us</a>
+            <a class="Achors" href="./Dashboard.html">FAQ</a>
+          </div>
+        </div>
+        <div class="f-cards">
+          <a class="logo-Text">Legal</a>
+          <div style="display: flex; flex-direction: column; gap: 10px">
+            <a class="Achors" href="./Dashboard.html">Privacy Policy</a>
+            <a class="Achors" href="./Dashboard.html">Terms of Service</a>
+            <a class="Achors" href="./Dashboard.html">Cookie Policy</a>
+          </div>
+        </div>
       </div>
-      <div class="f-cards">
-     <a class="logo-Text">Support</a>
-     <div style="display: flex; flex-direction: column; gap: 10px;">
-      <a class="Achors" href="#courses-list">Help Center</a>
-      <a class="Achors" href="#courses-list">Contact Us</a>
-      <a class="Achors" href="#courses-list">FAQ</a>
-     </div>
+      <div class="f-2">
+        <p>© 2024 SmartLearn-Hub All rights reserved.</p>
       </div>
-      <div class="f-cards">
-     <a class="logo-Text">Legal</a>
-     <div style="display: flex; flex-direction: column; gap: 10px;">
-      <a class="Achors" href="#courses-list">Privacy Policy</a>
-      <a class="Achors" href="#courses-list">Terms of Service</a>
-      <a class="Achors" href="#courses-list">Cookie Policy</a>
-     </div>
-     </div>
-    </div>  
-    <div class="f-2">
-     <p>© 2024 SmartLearn-Hub All rights reserved.</p>
-    </div>
     </section>
   </body>
 </html>
