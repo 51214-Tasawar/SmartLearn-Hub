@@ -57,7 +57,6 @@ function LearnEdge(index) {
                 <p style="font-size:28px; font-weight:600;">${course.Course}</p>
                 <p style="font-size:16px;">${course.description}</p>
                 <p style="font-size:20px; font-weight:500;">by ${course.Tutorname}</p>
-
                 <div style="display:flex; justify-content:space-evenly; gap:15px;">
                     <div style="display:flex; align-items:center; gap:5px;">
                         <i class="text-yellow-400 fa fa-star"></i>
@@ -72,26 +71,24 @@ function LearnEdge(index) {
                         <p>${course.CourseDuration}</p>
                     </div>
                 </div>
-
-                <div style="display:flex; justify-content:center; margin-top:20px;">
+               <div style="display:flex; justify-content:center; margin-top:20px;">
                     <button style="width:80%; height:35px; background-color:blue; color:white; 
-                    border-radius:10px; font-sie:35px; font-weight:900; cursor:pointer;">
+                    border-radius:10px; font-sie:35px; font-weight:900; cursor:pointer;" onclick="StartLearing()">
                         Start Learning
                     </button>
                 </div>
             </div>
-
             <div style="width:50%; height:100%; padding:20px;">
                 <img src="${course.image}" style="width:100%; height:100%; object-fit:cover; border-radius:10px;"/>
             </div>
         </div>`;
-
         document.getElementById("Courses").innerHTML = card;
     });
-
 }
 
-
+function StartLearing(){
+  document.getElementById("Courses").style.display = 'none'
+}
 
 
 
