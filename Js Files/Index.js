@@ -73,8 +73,8 @@ function LearnEdge(index) {
                 </div>
                <div style="display:flex; justify-content:center; margin-top:20px;">
                     <button style="width:80%; height:35px; background-color:blue; color:white; 
-                    border-radius:10px; font-sie:35px; font-weight:900; cursor:pointer;" onclick="StartLearing()">
-                        Start Learning
+                    border-radius:10px; font-sie:35px; font-weight:900; cursor:pointer;" onclick="EnrollCourse()">
+                        Enroll Course
                     </button>
                 </div>
             </div>
@@ -86,8 +86,8 @@ function LearnEdge(index) {
     });
 }
 
-function StartLearing(){
-  document.getElementById("Courses").style.display = 'none'
+function EnrollCourse(){
+  document.getElementById("EnrooledNum").innerHTML += 0
 }
 
 
