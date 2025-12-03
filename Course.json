@@ -2,7 +2,7 @@
   {
     "Course": "JavaScript",
     "description": "Learn the fundamentals of JavaScript, including variables, functions, objects, and DOM manipulation, to build dynamic web applications.",
-    "image": "https://source.unsplash.com/600x400/?javascript,code",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
     "Tutorname": "John Carter",
     "CourseDuration": "4 Weeks",
     "member": "1204",
@@ -24,7 +24,7 @@
   {
     "Course": "TypeScript",
     "description": "Master TypeScript to write strongly-typed, scalable, and maintainable JavaScript applications for professional development.",
-    "image": "https://source.unsplash.com/600x400/?typescript,code",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     "Tutorname": "Emma Thompson",
     "CourseDuration": "5 Weeks",
     "member": "987",
@@ -45,7 +45,7 @@
   {
     "Course": "React.js",
     "description": "Build interactive, component-based user interfaces with React.js and learn modern frontend development techniques.",
-    "image": "https://source.unsplash.com/600x400/?reactjs,frontend",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     "Tutorname": "Michael Johnson",
     "CourseDuration": "6 Weeks",
     "member": "2104",
@@ -66,7 +66,7 @@
   {
     "Course": "Node.js",
     "description": "Learn Node.js to build fast and scalable backend applications using JavaScript, including APIs, server logic, and database integration.",
-    "image": "https://source.unsplash.com/600x400/?nodejs,backend",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
     "Tutorname": "David Williams",
     "CourseDuration": "7 Weeks",
     "member": "1580",
@@ -87,7 +87,7 @@
   {
     "Course": "MongoDB",
     "description": "Understand MongoDB, a NoSQL database, and learn to store, query, and manage data for modern web applications.",
-    "image": "https://source.unsplash.com/600x400/?database,mongodb",
+    "image": "https://www.svgrepo.com/show/331488/mongodb.svg",
     "Tutorname": "Sophia Miller",
     "CourseDuration": "4 Weeks",
     "member": "925",
@@ -108,7 +108,7 @@
   {
     "Course": "Python",
     "description": "Learn Python programming from basics to advanced topics, including variables, functions, OOP, and data handling for real-world applications.",
-    "image": "https://source.unsplash.com/600x400/?python,programming",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     "Tutorname": "Olivia Brown",
     "CourseDuration": "6 Weeks",
     "member": "3000",
@@ -129,7 +129,7 @@
   {
     "Course": "HTML & CSS",
     "description": "Master the building blocks of the web with HTML and CSS, creating structured, responsive, and visually appealing websites.",
-    "image": "https://source.unsplash.com/600x400/?html,css,design",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
     "Tutorname": "Chris Evans",
     "CourseDuration": "3 Weeks",
     "member": "1870",
@@ -150,7 +150,7 @@
   {
     "Course": "Next.js",
     "description": "Learn Next.js to build fast, server-rendered React applications with routing, API routes, and optimized performance.",
-    "image": "https://source.unsplash.com/600x400/?nextjs,react",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
     "Tutorname": "Daniel Garcia",
     "CourseDuration": "5 Weeks",
     "member": "1500",
@@ -171,7 +171,7 @@
   {
     "Course": "Express.js",
     "description": "Master Express.js to build backend APIs, handle routing, middlewares, and integrate with databases efficiently.",
-    "image": "https://source.unsplash.com/600x400/?expressjs,node",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
     "Tutorname": "William Scott",
     "CourseDuration": "4 Weeks",
     "member": "980",
